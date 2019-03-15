@@ -1,0 +1,17 @@
+#include "GameObjects.h"
+
+using namespace engine;
+using namespace game;
+
+/**
+ * The Hogwarts School of Magic
+ */
+
+EXTENDED_INHERITANCE_DEFINITION(Wall, GameObject)
+EXTENDED_INHERITANCE_DEFINITION(Actor, GameObject)
+EXTENDED_INHERITANCE_DEFINITION(Projectile, Actor)
+EXTENDED_INHERITANCE_DEFINITION(Knight, Actor)
+EXTENDED_INHERITANCE_DEFINITION(Monster, Actor)
+EXTENDED_INHERITANCE_DEFINITION(Skelet, Monster)
+EXTENDED_INHERITANCE_DEFINITION(Dragon, Monster)
+EXTENDED_INHERITANCE_DEFINITION(Caster, Monster)
