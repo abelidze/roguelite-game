@@ -26,13 +26,19 @@ Running
 > **TESTS**
 
 ```sh
-make test && make clean && ./bin/vector
+make test && make clean && ./bin/game
 ```
 
 > **COVERAGE**
 
 ```sh
-make cov && make clean && ./bin/vector
+make cov && make clean && ./bin/game
+```
+
+> **BUILD & RUN**
+
+```sh
+make && ./bin/game
 ```
 
 * Tested with MinGW x64 and its `make` utility, but you can use any working C / C++ compiler.

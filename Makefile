@@ -1,4 +1,4 @@
-PROJECT = roguelike
+PROJECT = game
 BUILD   = g++
 MAKEDIR = rsync -rup --delete assets/*
 REMOVE  = rm -rf
